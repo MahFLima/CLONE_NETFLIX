@@ -1,0 +1,35 @@
+@media screen and (max-width: 850px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .botoes{
+        margin: 40px 0;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    .description{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 653px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+}
+
